@@ -1,8 +1,6 @@
 # responsive_web_design
-<<<<<<< HEAD
 
 * [![html][html5]][https://img.shields.io/w3c-validation/:parser?targetUrl=https%3A%2F%2Fgithub.com%2FPrasad-Bhumkar%2Fresponsive_web_design%2Fblob%2Fmain%2FHTML%2Fheadings.html]
-=======
 <h1 align="center">Hi 👋, I'm <a href="https://Prasad-Bhumkar.github.io/Me.io/" target="blank">
 Prasad Bhumkar</a></h1>
 
@@ -45,4 +43,3 @@ Prasad Bhumkar</a></h1>
 
 
 Credit: [Prasad Bhumkar](https://github.com/Prasad-Bhumkar)
->>>>>>> 732b68a50011c00eddce9ad86c366e6dee5dacb9
