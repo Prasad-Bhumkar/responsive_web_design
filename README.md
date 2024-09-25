@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm <a href="https://Prasad-Bhumkar.github.io/Me.io/" target="blank">
 Prasad Bhumkar</a></h1>
 
-<h3 align="center">A passionate Full Stack developer from Pune India &#127470;&#127475</h3>
+<h3 align="center">A passionate Full Stack developer from Pune India &#127470;&#127475 :india:</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Prasad-Bhumkar&label=Profile%20views&color=0e75b6&style=flat" alt="Prasad-Bhumkar" /> </p>
 
