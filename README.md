@@ -21,7 +21,7 @@ Prasad Bhumkar</a></h1>
 
 <p align="center">
 
- <div align="center" class="icons-social" style="margin-left: 10px;background-color : white">
+ <div align="center" class="icons-social" style="margin-left: 10px;background-color:white>
   <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in//">
     <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" height="40" width="40">
   </a>
