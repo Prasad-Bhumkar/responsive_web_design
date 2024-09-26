@@ -1,5 +1,5 @@
 # responsive_web_design
-
+<body style="background-color:white">
 <h1 align="center">Hi 👋, I'm <a href="https://Prasad-Bhumkar.github.io/Me.io/" target="blank">
 Prasad Bhumkar</a></h1>
 
@@ -49,3 +49,4 @@ Prasad Bhumkar</a></h1>
 
 
 Credit: [Prasad Bhumkar](https://github.com/Prasad-Bhumkar)
+</body>
