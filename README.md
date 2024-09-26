@@ -21,7 +21,7 @@ Prasad Bhumkar</a></h1>
 
 <p align="center">
 
- <div align="center" class="icons-social" style="margin-left: 10px;">
+ <div align="center" class="icons-social" style="margin-left: 10px;background-color : white">
   <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in//">
     <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" height="40" width="40">
   </a>
@@ -32,7 +32,7 @@ Prasad Bhumkar</a></h1>
     <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png" height="40" width="40">
   </a>
   <a style="margin-left: 10px;" target="_blank" href="https://dev.to/prasad_bhumkar_f4e5cf4f5a">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fdevto-social-network-developers-nayden-gochev&psig=AOvVaw075Db1v5ouvbGC7yoPuIWO&ust=1727425214426000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDb08SW4IgDFQAAAAAdAAAAABAJ" height="40" width="40">
+    <img src="https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000" height="40" width="40">
   </a>
   <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/prasad.bhumkar_official/">
     <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png" height="40" width="40">
