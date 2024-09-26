@@ -1,5 +1,5 @@
 # responsive_web_design
-<body bg-color="red">
+
 <h1 align="center">Hi 👋, I'm <a href="https://Prasad-Bhumkar.github.io/Me.io/" target="blank">
 Prasad Bhumkar</a></h1>
 
@@ -17,30 +17,30 @@ Prasad Bhumkar</a></h1>
 - 🌱 I’m currently learning Front End Development 
 
 <br/>
-<h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">Connect with me 🤝 </h3>
+<h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px; background-color:white">Connect with me 🤝 </h3>
 
 <span  align="center" style="background-color:white">
 
  <div align="center" class="icons-social" style="margin-left: 10px;>
-  <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in//">
+  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://www.linkedin.com/in//">
     <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" height="40" width="40">
   </a>
   <a style="margin-left: 10px;" target="_blank" href="https://github.com/Prasad-Bhumkar">
     <img src="https://img.icons8.com/doodle/40/000000/github--v1.png" height="40" width="40">
   </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/27444090/prasad-bhumkar">
+  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://stackoverflow.com/users/27444090/prasad-bhumkar">
     <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png" height="40" width="40">
   </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://dev.to/prasad_bhumkar_f4e5cf4f5a">
+  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://dev.to/prasad_bhumkar_f4e5cf4f5a">
     <img src="https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000" height="40" width="40">
   </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/prasad.bhumkar_official/">
+  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://www.instagram.com/prasad.bhumkar_official/">
     <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png" height="40" width="40">
   </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/@bhumkar_pr89871">
+  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://twitter.com/@bhumkar_pr89871">
     <img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" height="40" width="40">
   </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://www.youtube.com/@youtubemafia9893?sub_confirmation=1">
+  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://www.youtube.com/@youtubemafia9893?sub_confirmation=1">
     <img src="https://img.icons8.com/doodle/1x/youtube--v2.png" height="40" width="40">
   </a>
 </div>
@@ -49,4 +49,3 @@ Prasad Bhumkar</a></h1>
 
 
 Credit: [Prasad Bhumkar](https://github.com/Prasad-Bhumkar)
-</body>
