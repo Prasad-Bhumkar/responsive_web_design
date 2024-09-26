@@ -21,21 +21,28 @@ Prasad Bhumkar</a></h1>
 
 <p align="center">
 
- <div align="center"  class="icons-social" style="margin-left: 10px;">
-        <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in//">
-			<img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
-        <a style="margin-left: 10px;" target="_blank" href="https://github.com/Prasad-Bhumkar">
-		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
-		<a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/27444090/prasad-bhumkar">
-			<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png"></a>
-	   <a style="margin-left: 10px;" target="_blank" href="https://dev.to/prasad_bhumkar_f4e5cf4f5a"><img src="https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000"></a>
-        <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/prasad.bhumkar_official/">
-			<img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
-		<a style="margin-left: 10px;" target="_blank" href="https://twitter.com/@bhumkar_pr89871">
-			<img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" ></a>
-		<a style="margin-left: 10px;" target="_blank" href="https://www.youtube.com/@youtubemafia9893?sub_confirmation=1">
-				<img src="https://img.icons8.com/doodle/1x/youtube--v2.png" ></a>
-		
+ <div align="center" class="icons-social" style="margin-left: 10px;">
+  <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in//">
+    <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" height="40" width="40">
+  </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://github.com/Prasad-Bhumkar">
+    <img src="https://img.icons8.com/doodle/40/000000/github--v1.png" height="40" width="40">
+  </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/27444090/prasad-bhumkar">
+    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png" height="40" width="40">
+  </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://dev.to/prasad_bhumkar_f4e5cf4f5a">
+    <img src="https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000" height="40" width="40">
+  </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/prasad.bhumkar_official/">
+    <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png" height="40" width="40">
+  </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/@bhumkar_pr89871">
+    <img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" height="40" width="40">
+  </a>
+  <a style="margin-left: 10px;" target="_blank" href="https://www.youtube.com/@youtubemafia9893?sub_confirmation=1">
+    <img src="https://img.icons8.com/doodle/1x/youtube--v2.png" height="40" width="40">
+  </a>
 </div>
 
 </p>
