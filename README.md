@@ -1,5 +1,5 @@
 # responsive_web_design
-<body style="background-color:white">
+<body bg-color="red">
 <h1 align="center">Hi 👋, I'm <a href="https://Prasad-Bhumkar.github.io/Me.io/" target="blank">
 Prasad Bhumkar</a></h1>
 
