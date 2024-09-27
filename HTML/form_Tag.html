@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Form</title>
+</head>
+<body>
+
+<h1>Basic HTML Form</h1>
+<div align="center">
+<form action="Thankyou.html" method="POST">
+    <!-- Text Input -->
+    <label>Text Input:</label>
+    <input type="text" name="text" placeholder="Enter text" required>
+    <br><br>
+
+    <!-- Password Input -->
+    <label>Password:</label>
+    <input type="password" name="password" required>
+    <br><br>
+
+    <!-- Email Input -->
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <br><br>
+
+    <!-- Number Input -->
+    <label>Number:</label>
+    <input type="number" name="number" min="1" max="100" required>
+    <br><br>
+
+    <!-- Date Input -->
+    <label>Date:</label>
+    <input type="date" name="date" required>
+    <br><br>
+
+    <!-- Time Input -->
+    <label>Time:</label>
+    <input type="time" name="time" required>
+    <br><br>
+
+    <!-- Color Input -->
+    <label>Color:</label>
+    <input type="color" name="color" value="#000000">
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br><br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" name="subscribe" value="yes">
+    <label>Subscribe to newsletter</label>
+    <br><br>
+
+    <!-- Select Dropdown -->
+    <label>Country:</label>
+    <select name="country" required>
+        <option value="">Select a country</option>
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="india" selected>India</option>
+        <option value="uk">United Kingdom</option>
+    </select>
+    <br><br>
+
+    <!-- Textarea -->
+    <label>Comments:</label>
+    <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
