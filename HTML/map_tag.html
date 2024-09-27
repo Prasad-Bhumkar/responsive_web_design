@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map Tag</title>
+    <title>Image Map Example</title>
+    <style>
+        img {
+            width: 500px; /* Set a fixed width for the image */
+        }
+    </style>
 </head>
 <body>
-    <map name="map">
-        <area shape="rect" coords="300,300,600,100" href="anchor_tag.html" alt="rect">
-        <area shape="circle" coords="200,200,200,200" href="headings.html" alt="circle">
-    </map>
-    <img src="sample.jpg" usemap= '#map'>
+
+<h1>Image Map Example</h1>
+<img src="https://via.placeholder.com/400" alt="Sample Image" usemap="#image-map">
+
+<map name="image-map">
+    <area shape="rect" coords="34,44,270,350" href="https://www.example.com/rect" alt="Rectangle Area" />
+    <area shape="circle" coords="337,300,50" href="https://www.example.com/circle" alt="Circle Area" />
+    <area shape="poly" coords="200,10,250,190,160,210" href="https://www.example.com/poly" alt="Polygon Area" />
+</map>
+
 </body>
 </html>
