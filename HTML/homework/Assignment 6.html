@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Exercise</title>
+  </head>
+  <body style="background-color: aqua">
+    <form action="Thankyou.html">
+      <table cellspacing="40">
+        <tr>
+          <td><label for="fnmae">First Name:</label></td>
+          <td><input type="text" placeholder="Enter First Name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="mnmae">Middle Name:</label></td>
+          <td>
+            <input type="text" placeholder="Enter Middle Name" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lnmae">Last Name:</label></td>
+          <td><input type="text" placeholder="Enter Last Name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="course">Please select your course:</label></td>
+          <td>
+            <select name="course" id="course" required>
+              <option value="diploma">Diploma</option>
+              <option value="be">BE</option>
+              <option value="btech">B.Tech.</option>
+              <option value="me">ME</option>
+              <option value="mtech">M.Tech.</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <input type="radio" name="gender" id="male" required />Male
+            <input type="radio" name="gender" id="female" />Female
+            <input type="radio" name="gender" id="other" />Other
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone No.:</label></td>
+          <td>
+            <input type="text" value="+91" style="width: 30px" readonly />
+            <input
+              type="text"
+              placeholder="Enter your mobile number"
+              pattern="^\d{10}$"
+              minlength="10"
+              maxlength="10"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Enter Address:</label></td>
+          <td>
+            <textarea
+              name="address"
+              id="address"
+              rows="4"
+              cols="50"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input type="email" placeholder="example@gmail.com" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pass" id="password">Enter Password:</label></td>
+          <td>
+            <input type="password" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="re-pass" id="password">Re-Enter your Password:</label>
+          </td>
+          <td>
+            <input type="password" required />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <input type="submit" name="submit" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
