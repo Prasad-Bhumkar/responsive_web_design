@@ -12,28 +12,14 @@
 
 ### 🤝 Connect with me:
 
-<div>
-    <a href="https://www.linkedin.com/in/" target="_blank">
-        ![LinkedIn](https://img.icons8.com/doodle/40/000000/linkedin--v2.png)
-    </a>
-    <a href="https://github.com/Prasad-Bhumkar" target="_blank">
-        ![GitHub](https://img.icons8.com/doodle/40/000000/github--v1.png)
-    </a>
-    <a href="https://stackoverflow.com/users/27444090/prasad-bhumkar" target="_blank">
-        ![Stack Overflow](https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png)
-    </a>
-    <a href="https://dev.to/prasad_bhumkar_f4e5cf4f5a" target="_blank">
-        ![Dev.to](https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000)
-    </a>
-    <a href="https://www.instagram.com/prasad.bhumkar_official/" target="_blank">
-        ![Instagram](https://img.icons8.com/doodle/40/000000/instagram-new--v2.png)
-    </a>
-    <a href="https://twitter.com/@bhumkar_pr89871" target="_blank">
-        ![Twitter](https://img.icons8.com/doodle/1x/twitter-squared--v2.png)
-    </a>
-    <a href="https://www.youtube.com/@youtubemafia9893?sub_confirmation=1" target="_blank">
-        ![YouTube](https://img.icons8.com/doodle/1x/youtube--v2.png)
-    </a>
-</div>
+[![LinkedIn](https://img.icons8.com/doodle/40/000000/linkedin--v2.png)](https://www.linkedin.com/in/)
+[![GitHub](https://img.icons8.com/doodle/40/000000/github--v1.png)](https://github.com/Prasad-Bhumkar)
+[![Stack Overflow](https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png)](https://stackoverflow.com/users/27444090/prasad-bhumkar)
+[![Dev.to](https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000)](https://dev.to/prasad_bhumkar_f4e5cf4f5a)
+[![Instagram](https://img.icons8.com/doodle/40/000000/instagram-new--v2.png)](https://www.instagram.com/prasad.bhumkar_official/)
+[![Twitter](https://img.icons8.com/doodle/1x/twitter-squared--v2.png)](https://twitter.com/@bhumkar_pr89871)
+[![YouTube](https://img.icons8.com/doodle/1x/youtube--v2.png)](https://www.youtube.com/@youtubemafia9893?sub_confirmation=1)
+
+---
 
 Credit: [Prasad Bhumkar](https://github.com/Prasad-Bhumkar)
