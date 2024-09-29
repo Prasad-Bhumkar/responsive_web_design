@@ -5,46 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquiry Form</title>
 </head>
-<body style="background-image: url(enq_bg.jpg);background-size: cover;">
+<body style="background-image: url('enq_bg.jpg'); background-size: cover; height: 100vh; margin: 0;">
 
-    <form action="Thankyou.html" method="POST">
-        <fieldset style="width: 600px;height: 600px; margin: auto;">
-            <legend align="center"><h3>Enquiry Form</h3></legend>
-            <table cellspacing="50">
-                <tr>
-                    <td><label for="name">Name:</label></td>
-                    <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
-                </tr>
-                <tr>
-                    <td><label for="email">Email:</label></td>
-                    <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
-                </tr>
-                <tr>
-                    <td><label for="phone">Phone Number:</label></td>
-                    <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required></td>
-                </tr>
-                <tr>
-                    <td><label for="course">Course Interested In:</label></td>
-                    <td>
-                        <select id="course" name="course" required>
-                            <option value="" disabled selected>Select a course</option>
-                            <option value="web-development">Web Development</option>
-                            <option value="data-science">Data Science</option>
-                            <option value="cyber-security">Cyber Security</option>
-                            <option value="digital-marketing">Digital Marketing</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="message">Message:</label></td>
-                    <td><textarea id="message" name="message" rows="4" placeholder="Type your message here..."></textarea></td>
-                </tr>
-            </table>
-            <div style="text-align: center; margin-top: 20px;">
-                <button type="submit">Submit Enquiry</button>
-            </div>
-        </fieldset>
-    </form>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+        <form action="Thankyou.html" method="POST">
+            <fieldset style="border: 13px solid #df840e; padding: 20px; display: inline-block;">
+                <legend align="center"><h2>Enquiry Form</h2></legend>
+                <table cellspacing="50" style="margin: auto;">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="course">Course Interested In:</label></td>
+                        <td>
+                            <select id="course" name="course" required>
+                                <option value="" disabled selected>Select a course</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="data-science">Data Science</option>
+                                <option value="cyber-security">Cyber Security</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="message" rows="4" placeholder="Type your message here..."></textarea></td>
+                    </tr>
+                </table>
+                <div style="text-align: center; margin-top: 20px;">
+                    <button type="submit">Submit Enquiry</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 
 </body>
 </html>
