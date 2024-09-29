@@ -1,51 +1,27 @@
-# responsive_web_design
+# Hi 👋, I'm [Prasad Bhumkar](https://Prasad-Bhumkar.github.io/Me.io/)
 
-<h1 align="center">Hi 👋, I'm <a href="https://Prasad-Bhumkar.github.io/Me.io/" target="blank">
-Prasad Bhumkar</a></h1>
+### A passionate Full Stack Developer from Pune, India 🇮🇳
 
-<h3 align="center">A passionate Full Stack developer from Pune India &#127470;&#127475 </h3>
+![Profile views](https://komarev.com/ghpvc/?username=Prasad-Bhumkar&label=Profile%20views&color=0e75b6&style=flat)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Prasad-Bhumkar&label=Profile%20views&color=0e75b6&style=flat" alt="Prasad-Bhumkar" /> </p>
+[![Follow on Twitter](https://img.shields.io/twitter/follow/Prasad_Bhumkar?logo=twitter&style=for-the-badge)](https://www.instagram.com/prasad.bhumkar_official/)
 
-<p align="left"> <a href="https://www.instagram.com/prasad.bhumkar_official/" target="blank"><img src="https://img.shields.io/twitter/follow/Prasad_Bhumkar?logo=twitter&style=for-the-badge" alt="Prasad-Bhumkar" /></a> </p>
+![GIF](https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif)
 
-<a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+🌱 I’m currently learning Front End Development.
+
+### 🤝 Connect with me:
+
+[![LinkedIn](https://img.icons8.com/doodle/40/000000/linkedin--v2.png)](https://www.linkedin.com/in/)
+[![GitHub](https://img.icons8.com/doodle/40/000000/github--v1.png)](https://github.com/Prasad-Bhumkar)
+[![Stack Overflow](https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png)](https://stackoverflow.com/users/27444090/prasad-bhumkar)
+<a href="https://dev.to/prasad_bhumkar_f4e5cf4f5a" target="_blank">
+    <img src="https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000" width="40" height="40" alt="Dev.to"/>
 </a>
+[![Instagram](https://img.icons8.com/doodle/40/000000/instagram-new--v2.png)](https://www.instagram.com/prasad.bhumkar_official/)
+[![Twitter](https://img.icons8.com/doodle/1x/twitter-squared--v2.png)](https://twitter.com/@bhumkar_pr89871)
+[![YouTube](https://img.icons8.com/doodle/1x/youtube--v2.png)](https://www.youtube.com/@youtubemafia9893?sub_confirmation=1)
 
-
-- 🌱 I’m currently learning Front End Development 
-
-<br/>
-<h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px; background-color:white">Connect with me 🤝 </h3>
-
-<span  align="center" style="background-color:white">
-
- <div align="center" class="icons-social" style="margin-left: 10px;>
-  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://www.linkedin.com/in//">
-    <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" height="40" width="40">
-  </a>
-  <a style="margin-left: 10px;" target="_blank" href="https://github.com/Prasad-Bhumkar">
-    <img src="https://img.icons8.com/doodle/40/000000/github--v1.png" height="40" width="40">
-  </a>
-  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://stackoverflow.com/users/27444090/prasad-bhumkar">
-    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png" height="40" width="40">
-  </a>
-  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://dev.to/prasad_bhumkar_f4e5cf4f5a">
-    <img src="https://img.icons8.com/?size=100&id=Sf2NuZRCVuaE&format=png&color=000000" height="40" width="40">
-  </a>
-  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://www.instagram.com/prasad.bhumkar_official/">
-    <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png" height="40" width="40">
-  </a>
-  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://twitter.com/@bhumkar_pr89871">
-    <img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" height="40" width="40">
-  </a>
-  <a style="margin-left: 10px; background-color:white" target="_blank" href="https://www.youtube.com/@youtubemafia9893?sub_confirmation=1">
-    <img src="https://img.icons8.com/doodle/1x/youtube--v2.png" height="40" width="40">
-  </a>
-</div>
-
-</span>
-
+---
 
 Credit: [Prasad Bhumkar](https://github.com/Prasad-Bhumkar)
