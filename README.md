@@ -10,6 +10,16 @@
 
 🌱 I’m currently learning Front End Development.
 
+### Technologies
+
+[![HTML5](
+https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://www.w3.org/html/)
+[![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)](https://jquery.com/)
+
+
 ### 🤝 Connect with me:
 
 [![LinkedIn](https://img.icons8.com/doodle/40/000000/linkedin--v2.png)](https://www.linkedin.com/in/)
