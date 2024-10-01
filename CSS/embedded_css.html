@@ -1,0 +1,99 @@
+<!-- I will use embedded CSS in this file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded CSS Example</title>
+
+    <style>
+        /* CSS Selectors: Directly using Tag Names */
+        body {
+            background-color: lightgray; /* Sets background color for the body */
+            font-family: Arial, sans-serif; /* Sets font for the body */
+            text-align: center; /* Centers text in the body */
+        }
+        h1 {
+            color: darkblue; /* Color for the main header */
+        }
+        p {
+            background-color: green; /* Default background color for paragraphs */
+        }
+        
+
+        /* CSS Classes: Reusable styles for multiple elements */
+        .paragraph {
+            border: 10px solid darksalmon; /* Border properties for paragraph */
+            border-style: groove;
+            text-align: center;
+            margin: 10px; /* Adds some spacing around paragraphs */
+        }
+        .rating-text{
+            color: darkorange;
+        }
+        .paragraph.p1 {
+            color: brown; /* Text color for the first paragraph */
+        }
+        .paragraph.p2 {
+            color: darkblue; /* Text color for the second paragraph */
+        }
+
+        /* CSS ID: Unique styles for a specific element */
+        #header {
+            font-size: 24px; /* Font size for the main header */
+            font-weight: bold; /* Bold text for the main header */
+        }
+
+        /* Flexbox styles for aligning label and textarea */
+        .feedback-form {
+            display: flex; /* Enables flexbox layout */
+            justify-content: center; /* Centers the contents */
+            align-items: center; /* Vertically centers the items */
+            margin-bottom: 15px; /* Adds some space below */
+        }
+
+        label {
+            margin-top: 0%;
+            margin-right: 10px; /* Adds space between the label and textarea */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Inline CSS: Directly applied to this element -->
+    <h1 id="header" style="color: blue; font-size: 20px;">Feedback Form</h1>
+    <div class="feedback-form">
+    <form action="#" method="post">
+        <span>
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required style="border: 1px solid black;"></textarea>
+        </span>
+        
+        <span>
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" class="rating-text"> <!-- Using CSS Class -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+        </span>
+        <input type="submit" value="Submit" style="background-color: green; color: white;"/> <!-- Inline CSS -->
+    </div></form>
+
+    <p class="paragraph p1">Thank you for your feedback!</p> <!-- Using CSS Class -->
+    <p class="paragraph p2">We appreciate your input!</p> <!-- Using CSS Class -->
+
+    <!-- Embedded styles for a specific section -->
+    <div>
+        <style>
+            .highlight {
+                background-color: yellow; /* Highlighted background for specific elements */
+            }
+        </style>
+        <p class="highlight">This text is highlighted to draw attention.</p>
+    </div>
+</body>
+</html>
