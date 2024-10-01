@@ -4,7 +4,7 @@
 
 ![Profile views](https://komarev.com/ghpvc/?username=Prasad-Bhumkar&label=Profile%20views&color=0e75b6&style=flat)
 
-[![Follow on Twitter](https://img.shields.io/twitter/follow/Prasad_Bhumkar?logo=twitter&style=for-the-badge)](https://www.instagram.com/prasad.bhumkar_official/)
+[![Follow on Instagram](https://img.shields.io/twitter/)](https://www.instagram.com/prasad.bhumkar_official/)
 
 ![GIF](https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif)
 
