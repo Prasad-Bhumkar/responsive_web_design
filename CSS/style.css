@@ -1,0 +1,108 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Default font */
+    line-height: 1.6; /* Readable line height */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Padding around the body */
+}
+
+/* Utility classes */
+.container {
+    max-width: 1200px; /* Max width for main content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.hidden {
+    display: none; /* Class to hide elements */
+}
+
+/* Header styles */
+header {
+    background: #007bff; /* Primary color */
+    color: white; /* White text */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Centered text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Main content styles */
+main {
+    margin: 20px 0; /* Margins for the main content */
+    padding: 20px; /* Inner padding */
+    background: white; /* White background for main content */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+section h2 {
+    color: #007bff; /* Primary color for headers */
+    margin-bottom: 10px; /* Margin below headers */
+}
+
+section p {
+    margin-bottom: 15px; /* Margin below paragraphs */
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding around footer */
+    background: #007bff; /* Same primary color */
+    color: white; /* White text */
+    position: relative; /* Position relative for proper alignment */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduced padding on smaller screens */
+    }
+
+    main {
+        padding: 15px; /* Reduced padding for main content */
+    }
+
+    button {
+        width: 100%; /* Full-width buttons on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 15px; /* Further reduce padding on very small screens */
+    }
+}
