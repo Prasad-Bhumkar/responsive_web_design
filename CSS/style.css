@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    border: 20px solid;
+    border-color: darkmagenta;
+    border-style: groove;
+    border-radius: 15px;
+    margin: 100px;
+    background-color: aquamarine;
+}
+
+
+form{
+    background-color: darkkhaki;
+    border: 5px solid;
+    margin: 10px;
+}
+
+#form_heading{
+    background-color: rgb(177, 148, 77);
+    padding: 5px;
+    border: 5px solid;
+}
