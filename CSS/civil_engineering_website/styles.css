@@ -93,7 +93,7 @@ nav ul li a:hover {
 main {
     margin: 20px 0; /* Margins for the main content */
     padding: 20px; /* Inner padding */
-    background: white; /* White background for main content */
+    background: rgb(113, 231, 142); /* White background for main content */
     border-radius: 8px; /* Slightly rounded corners */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
 }
@@ -141,7 +141,7 @@ section p {
 #contact-us-form{
     width: 80%;
     align-items: center;
-    background-color: darkgray;
+    background-color: rgb(255, 0, 0);
     justify-content: center;
     
     
