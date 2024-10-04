@@ -1,0 +1,34 @@
+/* layout.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Change to row for horizontal layout */
+    justify-content: flex-start; /* Align items at the start */
+    margin: 20px;
+}
+
+.float-element {
+    float: left;
+    margin-right: 10px;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin-right: 10px;
+    color: blue;
+    text-decoration: none;
+}

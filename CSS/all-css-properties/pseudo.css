@@ -1,0 +1,25 @@
+/* pseudo.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.list-item {
+    padding: 10px 0;
+    position: relative;
+}
+
+.list-item::before {
+    content: "• "; /* Custom bullet */
+    color: red; /* Custom bullet color */
+    position: absolute;
+    left: -20px; /* Space for custom bullet */
+}

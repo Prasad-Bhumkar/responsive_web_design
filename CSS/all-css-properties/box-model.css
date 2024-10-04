@@ -1,0 +1,30 @@
+/* box-model.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100%; /* Full width */
+    max-width: 300px; /* Maximum width */
+    height: auto; /* Auto height */
+    margin: 20px auto; /* Centered */
+    padding: 15px;
+    border: 2px solid #000;
+    box-sizing: border-box; /* Includes padding and border in width/height */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}

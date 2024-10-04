@@ -1,0 +1,21 @@
+/* grid.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Space between grid items */
+    margin: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid #999;
+    text-align: center;
+}
