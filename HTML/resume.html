@@ -1,95 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Prasad Bhumkar</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      text-align: center;
+    }
 
-        h1 {
-            text-align: center;
-        }
+    h1 {
+      color: #333;
+    }
 
-        section {
-            margin: 20px;
-        }
+    #container {
+      display: flex;
+      padding: 5px;
+      border: 2px solid rgb(152, 184, 157);
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%; /* Set height of outer div to 100% */
+      position: relative; /* Make container relative for absolute positioning of line */
+    }
 
-        h2 {
-            text-align: center;
-        }
+    table {
+      width: 45%;
+      margin-bottom: 20px;
+      border: 1px solid #ffffff;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+    td {
+      padding: 10px;
+      vertical-align: top;
+    }
 
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+    fieldset {
+      border: 1px solid #000000;
+      padding: 10px;
+      margin: 0;
+    }
+
+    legend {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .vertical-line {
+      border-left: 2px solid #cc1b1b;
+      height: 100%; /* Make the line span the entire height of the container */
+      position: absolute;
+      top: 0; /* Align top of line with top of container */
+      left: 50%; /* Adjust the left position to align the line with the desired table */
+      bottom: 0; /* Align bottom of line with bottom of container */
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Prasad Bhumkar</h1>
+  <h1>Prasad Bhumkar</h1>
+  <div>
     <fieldset>
-        
-    <p>PHONE: 7410170125</p>
-    <p>EMAIL: prasadbhumkar23@gmail.com</p>
-    <p>ADDRESS: Dhamani, Pune, India 410508</p>
+      <legend>Contact Information</legend>
+      <p>PHONE: 7410170125</p>
+      <p>EMAIL: prasadbhumkar23@gmail.com</p>
+      <p>ADDRESS: Dhamani, Pune, India 410508</p>
     </fieldset>
+  </div>
+  <hr />
+  <div id="container">
+    <table>
+      <tr>
+        <td>
+          <fieldset>
+            <legend>About Me</legend>
+            <p>
+              A Computer Engineering student proficient in Java programming language, with extensive knowledge of Data Structures & Algorithms and Object-Oriented Programming Systems. Skilled in SQL, Python, and C++. Along with all these, I also possess good knowledge of HTML, CSS, and JavaScript.
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Projects</legend>
+            <ul>
+              <li>
+                <strong>Offline MCQ Based Examination System Using VB.NET and MySQL</strong>
+              </li>
+              <li>
+                <strong>Suspicious Activity Detection Using CNN</strong>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Hobbies</legend>
+            <ul>
+              <li>Swimming</li>
+              <li>Listening to Music</li>
+              <li>Trekking</li>
+              <li>Reading Books</li>
+              <li>Traveling</li>
+            </ul>
+          </fieldset>
+        </td>
+      </tr>
+    </table>
 
-    <section>
-        <h2>About Me</h2>
-        <p>A Computer Engineering student proficient in Java programming language, with extensive knowledge of Data Structures & Algorithms and Object-Oriented Programming Systems. Skilled in SQL, Python, and C++. Along with all these, I also possess good knowledge of HTML, CSS, and JavaScript.</p>
-    </section>
+    <div class="vertical-line">  <p>.</p>  </div>
 
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Offline MCQ Based Examination System Using VB.NET and MySQL</strong></li>
-            <li><strong>Suspicious Activity Detection Using CNN</strong></li>
-        </ul>
-    </section>
+    <table>
+      <tr>
+        <td>
+          <fieldset>
+            <legend>Expertise</legend>
+            <ul>
+              <li>Java</li>
+              <li>Object Oriented Programming Systems</li>
+              <li>Data Structures and Algorithms</li>
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>VB.NET</li>
+            </ul>
+          </fieldset>
+        </td>
+      </tr>
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Bachelor of Computer Engineering</strong><br>
-                College of Engineering, Manjari(Bk). 2022-2024</li>
-            <li><strong>Diploma of Computer Engineering</strong><br>
-                Samarth Polytechnic, Belhe. 2020-2021</li>
-            <li><strong>HSC</strong><br>
-                Shri Bhairavnath Vidya Mandir, Pabal. 2018-2019</li>
-            <li><strong>SSC</strong><br>
-                Shri Shivaji vidyalaya, Dhamani. 2007-2016</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Expertise</h2>
-        <ul>
-            <li>Java</li>
-            <li>Object Oriented Programming Systems</li>
-            <li>Data Structures and Algorithms</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>VB.NET</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Swimming</li>
-            <li>Listening Music</li>
-            <li>Trekking</li>
-            <li>Reading Books</li>
-            <li>Travelling</li>
-        </ul>
-    </section>
+      <tr>
+        <td>
+          <fieldset>
+            <legend>Education</legend>
+            <ul>
+              <li>
+                <strong>Bachelor of Computer Engineering</strong><br />College
+                of Engineering, Manjari(Bk). 2022-2024
+              </li>
+              <li>
+                <strong>Diploma of Computer Engineering</strong><br />Samarth
+                Polytechnic, Belhe. 2020-2021
+              </li>
+              <li>
+                <strong>HSC</strong><br />Shri Bhairavnath Vidya Mandir,
+                Pabal. 2018-2019
+              </li>
+              <li>
+                <strong>SSC</strong><br />Shri Shivaji Vidyalaya, Dhamani.
+                2007-2016
+              </li>
+            </ul>
+          </fieldset>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
+
 </html>
