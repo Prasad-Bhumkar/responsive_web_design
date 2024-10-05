@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+    /* text-align: center; */
     border: 20px solid;
     border-color: darkmagenta;
     border-style: groove;
@@ -10,6 +10,7 @@ body{
 
 
 form{
+    text-align: center;
     background-color: darkkhaki;
     border: 5px solid;
     margin: 10px;
@@ -19,4 +20,16 @@ form{
     background-color: rgb(177, 148, 77);
     padding: 5px;
     border: 5px solid;
+}
+
+inputinput[type="text"],input[type="email"],input[type="password"],textarea{
+    color: crimson;
+}
+
+label{
+    text-align: left;
+}
+
+h2{
+    text-align:;
 }
