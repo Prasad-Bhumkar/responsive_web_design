@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    
+    <!-- Link to the separate stylesheets -->
+    <link rel="stylesheet" href="text-styles.css">
+    <link rel="stylesheet" href="box-model.css">
+    <link rel="stylesheet" href="backgrounds.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="flexbox.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="pseudo.css">
+    <link rel="stylesheet" href="misc.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Welcome to My HTML Example Page</h1>
+    <nav>
+        <a href="#section1">Section 1</a> |
+        <a href="#section2">Section 2</a> |
+        <a href="#section3">Section 3</a>
+    </nav>
+</header>
+
+<section id="section1">
+    <h2>Section 1: Text Elements</h2>
+    <p>This is a <strong>paragraph</strong> demonstrating some <em>HTML tags</em>.</p>
+    <p>Here is a <a href="https://www.example.com" target="_blank">link to an example website</a>.</p>
+    <ul>
+        <li class="list-item">First item</li>
+        <li class="list-item">Second item</li>
+        <li class="list-item">Third item</li>
+    </ul>
+</section>
+
+<section id="section2">
+    <h2>Section 2: Images and Lists</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="box">
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+</section>
+
+<section id="section3" class="grid-container">
+    <h2>Section 3: Tables and Forms</h2>
+    <table class="box">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Sam Brown</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Contact Form</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Submit" class="button">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 My HTML Example Page</p>
+</footer>
+
+</body>
+</html>
