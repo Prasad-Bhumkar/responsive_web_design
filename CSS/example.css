@@ -4,7 +4,7 @@ body{
     border-color: darkmagenta;
     border-style: groove;
     border-radius: 15px;
-    margin: 50px;
+    margin: 40px;
     background-color: aquamarine;
 }
 
@@ -24,6 +24,8 @@ form{
 
 inputinput[type="text"],input[type="email"],input[type="password"],textarea{
     color: crimson;
+    border: 2px solid;
+    border-color: darkslategray;
 }
 
 label{
