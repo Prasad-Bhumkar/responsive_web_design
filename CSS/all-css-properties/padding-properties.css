@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.padding-example {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.padding-example:hover {
+    background-color: #eaeaea;
+}
+
+/* Padding classes */
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+.padding-all {
+    padding: 10px;
+}
+
+.padding-top-bottom {
+    padding: 15px 5px; /* 15px top/bottom, 5px left/right */
+}
+
+.padding-50-25 {
+    padding: 50px 25px; /* 50px top/bottom, 25px left/right */
+}
