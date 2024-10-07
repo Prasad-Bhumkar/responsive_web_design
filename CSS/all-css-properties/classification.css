@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    position: relative;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.classification-demo {
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto; /* Default margin for demo */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Block Element */
+#block {
+    display: block; /* Block element */
+}
+
+/* Inline Element */
+#inline {
+    display: inline; /* Inline element */
+    color: #2196F3; /* Color for visibility */
+}
+
+/* Inline-Block Element */
+#inline-block {
+    display: inline-block; /* Inline-block element */
+    background-color: #8BC34A; /* Distinct color for inline-block */
+}
+
+/* Flex Element */
+#flex {
+    display: flex; /* Flex element */
+    justify-content: center; /* Center content */
+    align-items: center; /* Center vertically */
+    background-color: #FF9800; /* Distinct color for flex */
+}
+
+/* Grid Element */
+#grid {
+    display: grid; /* Grid element */
+    grid-template-columns: repeat(3, 1fr); /* Example grid layout */
+    background-color: #9C27B0; /* Distinct color for grid */
+    color: white; /* Text color for visibility */
+}
+
+/* Display None */
+#none {
+    display: none; /* Element will not be displayed */
+}
+
+/* Float Left */
+#float-left {
+    float: left; /* Float left */
+    width: 45%; /* Set width for demonstration */
+}
+
+/* Float Right */
+#float-right {
+    float: right; /* Float right */
+    width: 45%; /* Set width for demonstration */
+}
+
+/* Clearfix */
+#clear {
+    clear: both; /* Clear floated elements */
+    background-color: #FF5722; /* Distinct color for clearfix */
+}
+
+/* Cursor Property */
+#cursor {
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #03A9F4; /* Distinct color */
+}
+
+/* Visibility Hidden */
+#visibility {
+    visibility: hidden; /* Element will be invisible but take up space */
+    background-color: #9E9E9E; /* Grey color for visibility */
+}
