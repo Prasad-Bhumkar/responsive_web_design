@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    position: relative;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.margin-demo {
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto; /* Default margin for demo */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Margin properties demonstration */
+#margin-all {
+    margin: 20px; /* All sides */
+}
+
+#margin-top {
+    margin-top: 30px; /* Top margin */
+}
+
+#margin-right {
+    margin-right: 40px; /* Right margin */
+}
+
+#margin-bottom {
+    margin-bottom: 50px; /* Bottom margin */
+}
+
+#margin-left {
+    margin-left: 20px; /* Left margin */
+}
+
+#margin-auto {
+    margin: 0 auto; /* Centering with auto margins */
+    width: 50%; /* Width to demonstrate centering */
+    background-color: #dce775; /* Distinct color for auto margins */
+}
