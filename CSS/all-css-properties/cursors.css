@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cursor-demo {
+    width: 250px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: default; /* Default cursor style */
+}
+
+/* Different cursor styles */
+#pointer {
+    cursor: pointer;
+}
+
+#text {
+    cursor: text;
+}
+
+#move {
+    cursor: move;
+}
+
+#crosshair {
+    cursor: crosshair;
+}
+
+#wait {
+    cursor: wait;
+}
+
+#help {
+    cursor: help;
+}
+
+#not-allowed {
+    cursor: not-allowed;
+}
+
+#alias {
+    cursor: alias;
+}
+
+#copy {
+    cursor: copy;
+}
+
+#col-resize {
+    cursor: col-resize;
+}
+
+#row-resize {
+    cursor: row-resize;
+}
+
+#n-resize {
+    cursor: n-resize;
+}
+
+#e-resize {
+    cursor: e-resize;
+}
+
+#s-resize {
+    cursor: s-resize;
+}
+
+#w-resize {
+    cursor: w-resize;
+}
+
+#ne-resize {
+    cursor: ne-resize;
+}
+
+#nw-resize {
+    cursor: nw-resize;
+}
+
+#se-resize {
+    cursor: se-resize;
+}
+
+#sw-resize {
+    cursor: sw-resize;
+}
+
+#zoom-in {
+    cursor: zoom-in;
+}
+
+#zoom-out {
+    cursor: zoom-out;
+}
