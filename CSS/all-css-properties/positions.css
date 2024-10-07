@@ -1,28 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #eaeaea;
     padding: 20px;
 }
 
 h2 {
     text-align: center;
+    color: #333;
 }
 
 .container {
     position: relative;
-    height: 300px;
-    border: 1px solid #ccc;
-    padding: 10px;
+    height: 500px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 20px;
     margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .position-demo {
-    width: 200px;
+    width: 80%;
     padding: 20px;
     margin: 10px auto;
-    background-color: #fff;
+    background-color: #f9f9f9;
     border: 1px solid #ccc;
+    border-radius: 5px;
     text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.position-demo:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
 }
 
 /* Static Positioning */
@@ -40,7 +51,7 @@ h2 {
 /* Absolute Positioning */
 #absolute {
     position: absolute;
-    top: 60px; /* Moves down from the top of the container */
+    top: 80px; /* Moves down from the top of the container */
     left: 60px; /* Moves right from the left of the container */
 }
 
@@ -55,4 +66,7 @@ h2 {
 #sticky {
     position: sticky;
     top: 10px; /* Sticks to the top when scrolled */
+    background-color: #ffeb3b; /* Highlight color for sticky */
+    padding: 30px; /* Increase padding for visibility */
+    border: 2px solid #fbc02d; /* Distinct border for sticky */
 }
