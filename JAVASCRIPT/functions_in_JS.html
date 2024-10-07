@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculations</title>
+</head>
+
+<body>
+    <script>
+        // Function to calculate the area of a circle
+        function calculateAreaCircle(radius) {
+            var pi = 3.14;
+            return pi * radius * radius;
+        }
+
+        // Function to calculate the circumference of a circle
+        function calculateCircumferenceCircle(radius) {
+            var pi = 3.14;
+            return 2 * pi * radius;
+        }
+
+        // Function to calculate the area of a rectangle
+        function calculateAreaRectangle(length, width) {
+            return length * width;
+        }
+
+        // Function to calculate the perimeter of a rectangle
+        function calculatePerimeterRectangle(length, width) {
+            return 2 * (length + width);
+        }
+
+        // Function to calculate the square of a number
+        function calculateSquare(number) {
+            return number * number;
+        }
+
+        // Function to calculate the cube of a number
+        function calculateCube(number) {
+            return number * number * number;
+        }
+
+        // Test values
+        var radius = 5;
+        var length = 10;
+        var width = 4;
+        var number = 3;
+
+        // Calculating results
+        var areaCircle = calculateAreaCircle(radius);
+        var circumferenceCircle = calculateCircumferenceCircle(radius);
+        var areaRectangle = calculateAreaRectangle(length, width);
+        var perimeterRectangle = calculatePerimeterRectangle(length, width);
+        var squareNumber = calculateSquare(number);
+        var cubeNumber = calculateCube(number);
+
+        // Displaying results
+        document.write("Area of Circle: " + areaCircle + "<br>");
+        document.write("Circumference of Circle: " + circumferenceCircle + "<br>");
+        document.write("Area of Rectangle: " + areaRectangle + "<br>");
+        document.write("Perimeter of Rectangle: " + perimeterRectangle + "<br>");
+        document.write("Square of Number: " + squareNumber + "<br>");
+        document.write("Cube of Number: " + cubeNumber + "<br>");
+    </script>
+</body>
+
+</html>
