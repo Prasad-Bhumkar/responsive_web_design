@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.position-demo {
+    width: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Static Positioning */
+#static {
+    position: static;
+}
+
+/* Relative Positioning */
+#relative {
+    position: relative;
+    top: 20px; /* Moves down */
+    left: 20px; /* Moves right */
+}
+
+/* Absolute Positioning */
+#absolute {
+    position: absolute;
+    top: 60px; /* Moves down from the top of the container */
+    left: 60px; /* Moves right from the left of the container */
+}
+
+/* Fixed Positioning */
+#fixed {
+    position: fixed;
+    bottom: 20px; /* Stays 20px from the bottom of the viewport */
+    right: 20px; /* Stays 20px from the right of the viewport */
+}
+
+/* Sticky Positioning */
+#sticky {
+    position: sticky;
+    top: 10px; /* Sticks to the top when scrolled */
+}
