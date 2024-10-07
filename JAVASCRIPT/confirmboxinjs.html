@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Box Demo</title>
+    <script>
+        function showConfirm() {
+            var result = confirm("Are you sure you want to proceed?");
+            if (result) {
+                document.getElementById("result").innerText = "You pressed OK!";
+            } else {
+                document.getElementById("result").innerText = "You pressed Cancel.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Confirmation Box Demo</h2>
+    <button onclick="showConfirm()">Click Me</button>
+    <div id="result"></div>
+</body>
+</html>

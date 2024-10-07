@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Box Demo</title>
+    <script>
+        function showPrompt() {
+            var userInput = prompt("Please enter your name:");
+            if (userInput) {
+                document.getElementById("result").innerText = "Hello, " + userInput + "!";
+            } else {
+                document.getElementById("result").innerText = "No name entered.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Prompt Box Demo</h2>
+    <button onclick="showPrompt()">Click Me</button>
+    <div id="result"></div>
+</body>
+</html>
