@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Style Properties Demo</title>
+    <link rel="stylesheet" href="list-style-properties.css">
+</head>
+<body>
+    <h2>CSS List Style Properties Demo</h2>
+    <div class="container">
+        <h3>Ordered Lists</h3>
+        <ol class="list-demo" type="1">
+            <li>Decimal (1)</li>
+            <li>Decimal (2)</li>
+            <li>Decimal (3)</li>
+        </ol>
+        <ol class="list-demo" type="A">
+            <li>Uppercase Alphabet (A)</li>
+            <li>Uppercase Alphabet (B)</li>
+            <li>Uppercase Alphabet (C)</li>
+        </ol>
+        <ol class="list-demo" type="a">
+            <li>Lowercase Alphabet (a)</li>
+            <li>Lowercase Alphabet (b)</li>
+            <li>Lowercase Alphabet (c)</li>
+        </ol>
+
+        <h3>Unordered Lists</h3>
+        <ul class="list-demo">
+            <li style="list-style-type: disc;">Disc (Default)</li>
+            <li style="list-style-type: circle;">Circle</li>
+            <li style="list-style-type: square;">Square</li>
+            <li style="list-style-type: none;">None</li>
+        </ul>
+
+        <h3>Custom List Style Images</h3>
+        <ul class="list-demo">
+            <li class="custom-bullet">Star Bullet 1</li>
+            <li class="custom-bullet">Star Bullet 2</li>
+            <li class="custom-bullet">Star Bullet 3</li>
+        </ul>
+        <ul class="list-demo">
+            <li class="custom-bullet">Star Bullet 4</li>
+            <li class="custom-bullet">Star Bullet 5</li>
+        </ul>
+
+        <h3>List Style Position</h3>
+        <ul class="list-demo" style="list-style-type: disc; list-style-position: outside;">
+            <li>Outside Position (Default)</li>
+            <li>Another Outside Item</li>
+        </ul>
+        <ul class="list-demo" style="list-style-type: circle; list-style-position: inside;">
+            <li>Inside Position</li>
+            <li>Another Inside Item</li>
+        </ul>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-demo {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.list-demo:hover {
+    background-color: #eaeaea;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #555;
+}
+
+.custom-bullet {
+    background-image: url('shield.png');
+    background-size: 15px 15px; /* Adjust the size here */
+    background-repeat: no-repeat;
+    background-position: 0 50%; /* Center vertically */
+    padding-left: 25px; /* Space for the bullet */
+    margin: 5px 0; /* Optional: spacing between items */
+}
