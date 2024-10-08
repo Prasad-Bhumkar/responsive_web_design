@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators Demo</title>
+    <script src="operators.js" defer></script>
+</head>
+<body>
+    <h1>Operators in JavaScript</h1>
+    <form id="inputForm" onsubmit="demonstrateOperators(event)">
+        <label for="valueA">Enter Value A:</label>
+        <input type="number" id="valueA" required><br><br>
+        
+        <label for="valueB">Enter Value B:</label>
+        <input type="number" id="valueB" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+</body>
+</html>
+
+
+
+
+
+<script>
+function demonstrateOperators(event) {
+    event.preventDefault(); // Prevent the form from submitting
+
+    // Get values from the form
+    var a = parseFloat(document.getElementById('valueA').value);
+    var b = parseFloat(document.getElementById('valueB').value);
+
+    // Arithmetic operations
+    var addition = a + b;          
+    var subtraction = a - b;       
+    var multiplication = a * b;    
+    var division = a / b;          
+    var modulus = a % b;           
+
+    // Increment and Decrement
+    var increment = a++;           
+    var decrement = b--;           
+
+    // Relational operations
+    var isEqual = (a === b);       
+    var isNotEqual = (a !== b);    
+    var isGreater = (a > b);       
+    var isLess = (a < b);          
+    var isGreaterOrEqual = (a >= b);
+    var isLessOrEqual = (a <= b);  
+
+    // Logical operations
+    var andOperation = (a > 0 && b > 0); 
+    var orOperation = (a > 0 || b < 0);  
+    var notOperation = !(a === b);       
+
+    // Assignment operations
+    var c = 20;  // Initial assignment
+    c += a;      // Add and assign
+    c -= b;      // Subtract and assign
+    c *= 2;      // Multiply and assign
+    c /= 2;      // Divide and assign
+    c %= 3;      // Modulus and assign
+
+    // Prepare output
+    var output = `
+        <h2>Results:</h2>
+        <h3>Arithmetic:</h3>
+        <p>Addition (a + b): ${addition}</p>
+        <p>Subtraction (a - b): ${subtraction}</p>
+        <p>Multiplication (a * b): ${multiplication}</p>
+        <p>Division (a / b): ${division}</p>
+        <p>Modulus (a % b): ${modulus}</p>
+        <p>Increment (a++): ${increment} (new value of a: ${a})</p>
+        <p>Decrement (b--): ${decrement} (new value of b: ${b})</p>
+
+        <h3>Relational:</h3>
+        <p>a === b: ${isEqual}</p>
+        <p>a !== b: ${isNotEqual}</p>
+        <p>a > b: ${isGreater}</p>
+        <p>a < b: ${isLess}</p>
+        <p>a >= b: ${isGreaterOrEqual}</p>
+        <p>a <= b: ${isLessOrEqual}</p>
+
+        <h3>Logical:</h3>
+        <p>(a > 0 && b > 0): ${andOperation}</p>
+        <p>(a > 0 || b < 0): ${orOperation}</p>
+        <p>!(a === b): ${notOperation}</p>
+
+        <h3>Assignment:</h3>
+        <p>Initial c: 20</p>
+        <p>c += a: ${c}</p>
+        <p>c -= b: ${c}</p>
+        <p>c *= 2: ${c}</p>
+        <p>c /= 2: ${c}</p>
+        <p>c %= 3: ${c}</p>
+    `;
+
+    // Display output
+    document.getElementById('output').innerHTML = output;
+}
+
+</script>
