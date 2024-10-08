@@ -7,12 +7,14 @@ function getValues() {
     var lastName = inputsByClass[1].value; // Get second input (Last Name)
 
     // Get value by name
-    var inputsByName = document.getElementsByName('email');
-    var email = inputsByName[0].value; // Get first input (Email)
+    var email = document.getElementsByName('email')[0].value; // Get first input (Email)
 
     // Get value by tag name
     var inputsByTag = document.getElementsByTagName('input');
     var age = inputsByTag[3].value; // Get fourth input (Age)
+
+    // Get password value directly using the form
+    var password = document.forms['myForm'].pass.value;
 
     // Display values using document.write
     document.write('<h3>Form Values:</h3>');
@@ -20,4 +22,5 @@ function getValues() {
     document.write('Last Name: ' + lastName + '<br>');
     document.write('Email: ' + email + '<br>');
     document.write('Age: ' + age + '<br>');
+    document.write('Password: ' + password + '<br>');
 }
