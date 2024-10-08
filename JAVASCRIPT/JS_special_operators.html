@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators Demo</title>
+    <script src="operators.js" defer></script>
+</head>
+<body>
+    <h1>JavaScript Operators Demo</h1>
+    <form id="inputForm" onsubmit="demonstrateOperators(event)">
+        <label for="value">Enter a value:</label>
+        <input type="text" id="value" required><br><br>
+
+        <label for="condition">Enter a condition (true or false):</label>
+        <input type="text" id="condition" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+</body>
+</html>
+
+
+
+<script>
+    function demonstrateOperators(event) {
+    event.preventDefault(); // Prevent the form from submitting
+
+    // Get values from the form
+    var inputValue = document.getElementById('value').value;
+    var conditionValue = document.getElementById('condition').value.toLowerCase() === 'true';
+
+    // Conditional operator
+    var result = conditionValue ? "Condition is true!" : "Condition is false!";
+
+    // Typeof operator
+    var valueType = typeof inputValue;
+
+    // Void operator
+    var voidResult = void(inputValue); // This will always return undefined
+
+    // Prepare output
+    var output = `
+        <h2>Results:</h2>
+        <h3>Conditional Operator:</h3>
+        <p>Result of condition: ${result}</p>
+
+        <h3>Typeof Operator:</h3>
+        <p>Type of the entered value: ${valueType}</p>
+
+        <h3>Void Operator:</h3>
+        <p>Result of void(inputValue): ${voidResult}</p>
+    `;
+
+    // Display output
+    document.getElementById('output').innerHTML = output;
+}
+
+</script>
