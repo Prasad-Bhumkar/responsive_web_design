@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Containers</title>
+    <style>
+
+.container{
+        border:2px solid red;
+    }
+
+    .container-fluid{
+        border:2px solid blue;
+    }
+    </style>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container -->
+    <div class="container">
+        <p>This is a paragraph inside a Bootstrap container. It will have a fixed width and will be centered on the page.</p>
+    </div>
+
+    <!-- Container Fluid -->
+    <div class="container-fluid">
+        <p>This is a paragraph inside a Bootstrap fluid container. It will take the full width of the viewport.</p>
+    </div>
+
+    <!-- Adding borders and background at class attribute value -->
+
+    <!-- Container -->
+    <div class="container bg-dark text-white">
+        <p>This is a paragraph inside a Bootstrap container. It will have a fixed width and will be centered on the page.</p>
+    </div>
+
+    <!-- Container Fluid -->
+    <div class="container-fluid bg-lite">
+        <p>This is a paragraph inside a Bootstrap fluid container. It will take the full width of the viewport.</p>
+    </div>
+    
+</body>
+</html>
