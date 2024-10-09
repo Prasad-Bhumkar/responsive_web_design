@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operations</title>
+    <style>
+        .container {
+            width: 500px;
+            margin: 15px auto;
+            padding:30px;
+            border: 5px solid #3b6979;
+            border-radius: 5px;
+            
+        }
+        .userinput {
+            margin: 10px;
+            padding: 10px;
+            width: 400px;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        #main-container{
+            border:5px solid #000000;
+            padding: 10px;
+            margin: 10px;
+        }
+        /* #b1{
+            margin-left: 5px;
+        } */
+        input[type="button"]{
+            margin-left: 5px;
+         }
+       
+    </style>
+</head>
+<body>
+    <div id="main-container">
+    <div class="container">
+        <input type="number" id="userinput1" class="userinput" placeholder="Enter first number"><br>
+        <input type="number" id="userinput2" class="userinput" placeholder="Enter second number"><br>
+        <input type="text" id="result" class="userinput" placeholder="Result will appear here" readonly><br>
+        
+    </div>
+    <div class="container">
+        <input type="button" value="Addition" onclick="add()" >
+        <input type="button" value="Subtraction" onclick="sub()" >
+        <input type="button" value="Multiplication" onclick="mul()" >
+        <input type="button" value="Division" onclick="div()" >
+        <input type="button" value="Modulus" onclick="mod()" >
+        <input type="button" value="Clear" onclick="clearinput()">
+    </div>
+    </div>
+    <script>
+        function add() {
+            var a = parseFloat(document.getElementById("userinput1").value);
+            var b = parseFloat(document.getElementById("userinput2").value);
+            document.getElementById("result").value = a + b;
+        }
+
+        function sub() {
+            var a = parseFloat(document.getElementById("userinput1").value);
+            var b = parseFloat(document.getElementById("userinput2").value);
+            document.getElementById("result").value = a - b;
+        }
+
+        function mul() {
+            var a = parseFloat(document.getElementById("userinput1").value);
+            var b = parseFloat(document.getElementById("userinput2").value);
+            document.getElementById("result").value = a * b;
+        }
+
+        function div() {
+            var a = parseFloat(document.getElementById("userinput1").value);
+            var b = parseFloat(document.getElementById("userinput2").value);
+            if (b !== 0) {
+                document.getElementById("result").value = a / b;
+            } else {
+                document.getElementById("result").value = "Error: Division by zero";
+            }
+        }
+
+        function mod() {
+            var a = parseFloat(document.getElementById("userinput1").value);
+            var b = parseFloat(document.getElementById("userinput2").value);
+            document.getElementById("result").value = a % b;
+        }
+
+        function clearinput() {
+            document.getElementById("userinput1").value = " ";
+            document.getElementById("userinput2").value = " ";
+            document.getElementById("result").value = " ";
+        }
+    </script>
+</body>
+</html>

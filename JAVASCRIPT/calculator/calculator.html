@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        button {
+            padding: 20px;
+            margin: 5px; 
+        }
+        fieldset {
+            width: max-content;
+            padding: 30px;
+            border: 5px double black;
+        }
+        input[type="text"] {
+            width: 100%;
+            height: 30px;
+            border: 3px solid black;
+            margin-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <fieldset>
+            <form name="calcy" onsubmit="return false">
+                <input type="text" id="userinput" readonly>
+                <table>
+                    <tr>
+                        <td><button value="1" onclick="calcy.userinput.value += '1'">1</button></td>
+                        <td><button value="2" onclick="calcy.userinput.value += '2'">2</button></td>
+                        <td><button value="3" onclick="calcy.userinput.value += '3'">3</button></td>
+                        <td><button value="+" onclick="calcy.userinput.value += '+'">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="4" onclick="calcy.userinput.value += '4'">4</button></td>
+                        <td><button value="5" onclick="calcy.userinput.value += '5'">5</button></td>
+                        <td><button value="6" onclick="calcy.userinput.value += '6'">6</button></td>
+                        <td><button value="-" onclick="calcy.userinput.value += '-'">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="7" onclick="calcy.userinput.value += '7'">7</button></td>
+                        <td><button value="8" onclick="calcy.userinput.value += '8'">8</button></td>
+                        <td><button value="9" onclick="calcy.userinput.value += '9'">9</button></td>
+                        <td><button value="*" onclick="calcy.userinput.value += '*'">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="0" onclick="calcy.userinput.value += '0'">0</button></td>
+                        <td><button value="C" onclick="clearInput()">C</button></td>
+                        <td><button value="Ac" onclick="allClear()">Ac</button></td>
+                        <td><button value="/" onclick="calcy.userinput.value += '/'">/</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><button value="=" onclick="calculateResult()" style="width: 100%;">=</button></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+
+    <script>
+        function clearInput() {
+            calcy.userinput.value = calcy.userinput.value.slice(0, -1);
+        }
+
+        function allClear() {
+            calcy.userinput.value = ''; 
+        }
+
+        function calculateResult() {
+            let input = calcy.userinput.value;
+            let result = eval(input); // Evaluate the expression
+            document.getElementById('userinput').value = result; // Set the result
+        }
+    </script>
+</body>
+</html>
