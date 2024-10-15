@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        /* Base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e8f0f7;
+        }
+
+        .nav {
+            background-color: rgba(19, 22, 26, 0.7);
+            padding: 15px;
+        }
+
+        .nav__list {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+        }
+
+        .nav__item {
+            position: relative;
+            cursor: pointer;
+        }
+
+        /* Dropdown styles */
+        .dropdown__list {
+            display: none; /* Initially hidden */
+            position: absolute;
+            top: 100%; /* Position below the dropdown item */
+            left: 0;
+            background-color: #fff;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown__list {
+            display: block;
+        }
+
+        .dropdown__item {
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        .dropdown__item:hover {
+            background-color: rgb(234, 234, 234);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item dropdown">projects &#x25BE;
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item">vb</li>
+                        <li class="dropdown__item">vb</li>
+                        <li class="dropdown__item">vb</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
