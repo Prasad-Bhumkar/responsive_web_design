@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Effect Methods</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <button id="hideButton">Hide Paragraph</button>
+    <button id="showButton">Show Paragraph</button>
+    <button id="toggleButton">Toggle Paragraph</button>
+    <button id="slideDownButton">Slide Down Paragraph</button>
+    <button id="fadeOutButton">Fade Out Paragraph</button>
+
+    <p id="paragraph">This is a paragraph that can be hidden, shown, toggled, slid down, or faded out.</p>
+
+    <script>
+        $(document).ready(function() {
+            $("#hideButton").click(function() {
+                $("#paragraph").hide();
+            });
+
+            $("#showButton").click(function() {
+                $("#paragraph").show();
+            });
+
+            $("#toggleButton").click(function() {
+                $("#paragraph").toggle();
+            });
+
+            $("#slideDownButton").click(function() {
+                $("#paragraph").slideDown();
+            });
+
+            $("#fadeOutButton").click(function() {
+                $("#paragraph").fadeOut();
+            });
+        });
+    </script>
+</body>
+</html>

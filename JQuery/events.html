@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Events</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>Document Ready Event</h2>
+    <p>This paragraph will be blue when the document is finished loading.</p>
+
+    <h2>Click Event</h2>
+    <p id="paragraph">Click on this paragraph to change its background color.</p>
+
+    <h2>Focus Event</h2>
+    <input type="text" id="inputField" placeholder="Click here to focus">
+    <p>The input field will get a green border when it's **not** focused.</p>
+
+    <h2>Mouseenter and Mouseleave Events</h2>
+    <div id="divElement">Hover over this div to change its background color.</div>
+    <p>The div will have a light gray background when the mouse is over it and will return to its original color when the mouse leaves.</p>
+
+    <h2>Mousedown and Mouseup Events</h2>
+    <div id="draggableDiv">Click and drag this div.</div>
+    <p>The cursor will change to a grabbing hand when you press down on the div and will return to normal when you release the mouse button.</p>
+
+    <script>
+        $(document).ready(function() {
+            // When the document is finished loading
+            $("p").css("color", "blue");
+        });
+
+        $("#paragraph").click(function() {
+            $(this).css("background-color", "yellow");
+        });
+
+        $("#inputField").blur(function() {
+            $(this).css("border", "2px solid green");
+        });
+
+        $("#divElement").mouseenter(function() {
+            $(this).css("background-color", "lightgray");
+        });
+
+        $("#divElement").mouseleave(function() {
+            $(this).css("background-color", "");
+        });
+
+        $("#draggableDiv").mousedown(function() {
+            $(this).css("cursor", "grabbing");
+        });
+
+        $("#draggableDiv").mouseup(function() {
+            $(this).css("cursor", "grab");
+        });
+    </script>
+</body>
+</html>

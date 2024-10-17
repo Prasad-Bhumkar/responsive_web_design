@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Fade In/Out Image with callback function</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <img id="myImage" src="chip-tarjeta.png" alt="Image">
+    <div>
+        <button id="fadeInButton">Fade In Image</button>
+        <button id="fadeOutButton">Fade Out Image</button>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#fadeInButton").click(function() {
+                $("#myImage").fadeIn(2000);
+            });
+
+            $("#fadeOutButton").click(function() {
+                $("#myImage").fadeOut(2000);
+            });
+        });
+    </script>
+</body>
+</html>

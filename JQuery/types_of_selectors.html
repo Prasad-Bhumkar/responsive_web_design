@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Selectors</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <p>This is the first paragraph.</p>
+    <p class="intro">This is the second paragraph with the class "intro".</p>
+    <p class="intro">This is another paragraph with the class "intro".</p>
+    <p id="intro">This is the paragraph with the id "intro".</p>
+    <p>This is another paragraph without any specific class or id.</p>
+    <p class="intro">This is yet another paragraph with the class "intro".</p>
+    <p class="important">This paragraph has the class "important".</p>
+    <p>This is the last paragraph.</p>
+
+    <script>
+        $(document).ready(function() {
+            // $(this) - Current HTML element
+            $("p").click(function() {
+                $(this).css("color", "red");
+            });
+
+            // $("p") - All <p> elements
+            $("p").hover(function() {
+                $(this).css("background-color", "yellow");
+            }, function() {
+                $(this).css("background-color", "");
+            });
+
+            // $("p.intro") - All <p> elements with class="intro"
+            $("p.intro").css("font-weight", "bold");
+
+            // $("p.intro:first") - The first <p> element with class="intro"
+            $("p.intro:first").css("text-decoration", "underline");
+
+            // $(".intro") - All elements with class="intro"
+            $(".intro").css("font-style", "italic");
+
+            // $("#intro") - The element with id="intro"
+            $("#intro").css("color", "blue");
+
+            // Additional selectors for demonstration
+            $("p.important").css("font-size", "20px");
+            $("p:last-child").css("border-bottom", "2px solid black");
+            $("p:nth-child(3)").css("text-align", "center");
+        });
+    </script>
+</body>
+</html>

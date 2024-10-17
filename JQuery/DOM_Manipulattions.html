@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <p >This is the original paragraph text.</p>
+    <input type="text" id="myInput" value="Initial value">
+
+    <input type="button" id="para" value="Set Text of paragraph">
+    <button onclick="setValue()">Set Value of inputfield</button>
+    <button onclick="setAttribute()">Set Attribute to paragraph</button>
+    <button onclick="appendContent()">Append Content to paragraph</button>
+    <button onclick="prependContent()">Prepend Content to paragraph</button>
+    <button onclick="removeElement()">Remove paragraph</button>
+
+    <script>
+        $(document).ready(function(){
+            $("p").click(function () {
+                alert(document.getElementById("p"));
+            });
+    });
+
+
+        // function setText() {
+        //     var paragraph = document.getElementById("myParagraph");
+        //     $(document).ready(function(){
+        //         alert($("myParagraph").text());
+        //     });
+        // }
+
+        function setValue() {
+            const input = document.getElementById("myInput");
+            input.val("Modified value");
+        }
+
+        function setAttribute() {
+            const paragraph = document.getElementById("myParagraph");
+            paragraph.attr("class", "newClass");
+        }
+
+        function appendContent() {
+            const paragraph = document.getElementById("myParagraph");
+            paragraph.append(" Appended text");
+        }
+
+        function prependContent() {
+            const paragraph = document.getElementById("myParagraph");
+            paragraph.prepend(" Prepended text ");
+        }
+
+        function removeElement() {
+            const paragraph = document.getElementById("myParagraph");
+            paragraph.remove();
+        }
+    </script>
+</body>
+</html>
