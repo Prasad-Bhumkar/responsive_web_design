@@ -1,86 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic HTML Form</title>
-  </head>
-  <body>
-    <h1>Basic HTML Form</h1>
-
-    <form action="Thankyou.html" method="POST" enctype="multipart/form-data">
-      <!-- Text Input -->
-      <label>Text Input:</label>
-      <input type="text" name="text" placeholder="Enter text" required />
-      <br /><br />
-
-      <!-- Password Input -->
-      <label>Password:</label>
-      <input type="password" name="password" required />
-      <br /><br />
-
-      <!-- Email Input -->
-      <label>Email:</label>
-      <input type="email" name="email" required />
-      <br /><br />
-
-      <!-- Number Input -->
-      <label>Number:</label>
-      <input type="number" name="number" min="1" max="100" required />
-      <br /><br />
-
-      <!-- Date Input -->
-      <label>Date:</label>
-      <input type="date" name="date" required />
-      <br /><br />
-
-      <!-- Time Input -->
-      <label>Time:</label>
-      <input type="time" name="time" required />
-      <br /><br />
-
-      <!-- Color Input -->
-      <label>Color:</label>
-      <input type="color" name="color" value="#000000" />
-      <br /><br />
-
-      <!-- Radio Buttons -->
-      <label>Gender:</label>
-      <input type="radio" name="gender" value="male" required /> Male
-      <input type="radio" name="gender" value="female" /> Female <br /><br />
-
-      <!-- Checkbox -->
-      <input type="checkbox" name="subscribe" value="yes" />
-      <label>Subscribe to newsletter</label>
-      <br /><br />
-
-      <!-- Select Dropdown -->
-      <label>Country:</label>
-      <select name="country" required>
-        <option value="">Select a country</option>
-        <option value="usa">United States</option>
-        <option value="canada">Canada</option>
-        <option value="uk">United Kingdom</option>
-      </select>
-      <br /><br />
-
-      <!-- Textarea -->
-      <label>Comments:</label>
-      <textarea
-        name="comments"
-        rows="4"
-        cols="50"
-        placeholder="Enter your comments here..."
-      ></textarea>
-      <br /><br />
-
-      <!-- File Input -->
-      <label>Upload File:</label>
-      <input type="file" name="file" required />
-      <br /><br />
-
-      <!-- Submit Button -->
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+<html>
+<head>
+    <title>Form Elements</title>
+</head>
+<body>
+    <div>
+        <h2>Form Elements</h2>
+        <form>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Enter first name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Enter last name">
+            </div>
+            <div>
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="name@example.com">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div>
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate">
+            </div>
+            <div>
+                <label for="time">Time</label>
+                <input type="time" id="time">
+            </div>
+            <div>
+                <label for="datetime">Datetime</label>
+                <input type="datetime-local" id="datetime">
+            </div>
+            <div>
+                <label for="month">Month</label>
+                <input type="month" id="month">
+            </div>
+            <div>
+                <label for="week">Week</label>
+                <input type="week" id="week">
+            </div>
+            <div>
+                <label for="url">URL</label>
+                <input type="url" id="url" placeholder="https://example.com">
+            </div>
+            <div>
+                <label for="search">Search</label>
+                <input type="search" id="search" placeholder="Search">
+            </div>
+            <div>
+                <label for="tel">Telephone</label>
+                <input type="tel" id="tel" placeholder="Phone number">
+            </div>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" id="color">
+            </div>
+            <div>
+                <label for="file">File</label>
+                <input type="file" id="file">
+            </div>
+            <div>
+                <label for="select">Select</label>
+                <select id="select">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="textarea">Textarea</label>
+                <textarea id="textarea" rows="3"></textarea>
+            </div>
+            <div>
+                <label>Radio Buttons</label>
+                <div>
+                    <input type="radio" name="radioOptions" id="radioOption1" value="option1">
+                    <label for="radioOption1">Option 1</label>
+                </div>
+                <div>
+                    <input type="radio" name="radioOptions" id="radioOption2" value="option2">
+                    <label for="radioOption2">Option 2</label>
+                </div>
+            </div>
+            <div>
+                <label>Checkboxes</label>
+                <div>
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1">Option 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox2">
+                    <label for="checkbox2">Option 2</label>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
 </html>
