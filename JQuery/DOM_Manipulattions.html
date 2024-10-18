@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
+
     <title>Document</title>
 </head>
-<body>
-    <p >This is the original paragraph text.</p>
-    <input type="text" id="myInput" value="Initial value">
 
-    <input type="button" id="para" value="Set Text of paragraph">
+<body>
+    <p>This is the original paragraph text.</p>
+    <input id="myInput" type="text" value="Initial value">
+
+    <button onclick="setText()">Set text of paragraph</button>
     <button onclick="setValue()">Set Value of inputfield</button>
     <button onclick="setAttribute()">Set Attribute to paragraph</button>
     <button onclick="appendContent()">Append Content to paragraph</button>
@@ -19,23 +21,17 @@
     <button onclick="removeElement()">Remove paragraph</button>
 
     <script>
-        $(document).ready(function(){
-            $("p").click(function () {
-                alert(document.getElementById("p"));
-            });
-    });
 
 
-        // function setText() {
-        //     var paragraph = document.getElementById("myParagraph");
-        //     $(document).ready(function(){
-        //         alert($("myParagraph").text());
-        //     });
-        // }
-
+        function setText() {
+            // Select the paragraph element
+            const paragraph = document.querySelector('p');
+            // Change the paragraph text to "modified text"
+            paragraph.textContent = "modified text";
+        }
         function setValue() {
             const input = document.getElementById("myInput");
-            input.val("Modified value");
+            input.value = "Modified value";
         }
 
         function setAttribute() {
@@ -59,4 +55,5 @@
         }
     </script>
 </body>
+
 </html>
