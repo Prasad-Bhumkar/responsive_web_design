@@ -1,0 +1,155 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container styles */
+.card-container {
+    width: 380px;
+    height: 500px;
+    position: relative;
+    perspective: 1000px;
+}
+
+/* Decorative circles */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.circle1 {
+    height: 200px;
+    width: 200px;
+    background-color: #3498db;
+    top: -100px;
+    left: -100px;
+}
+
+.circle2 {
+    height: 200px;
+    width: 200px;
+    background-color: #e74c3c;
+    right: -100px;
+    bottom: -100px;
+}
+
+/* Login card styles */
+.log-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.log-card:hover {
+    transform: rotateY(5deg);
+}
+
+/* Form styles */
+.heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.para {
+    font-size: 16px;
+    color: #eee;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 90%;
+    padding: 12px 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3498db;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Password group styles */
+.password-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.forget -password {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.forget-password:hover {
+    text-decoration: underline;
+}
+
+/* Submit button styles */
+.submit-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 16px 10px 10px;
+    border: none;
+    background-color: #3498db;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
