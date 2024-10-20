@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex System Overview</title>
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid black;
+            padding: 0px;
+            height: 500px;
+            width: 600px;
+        }
+
+        .flex-item {
+            border: 0px solid gray;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .justify-content-start {
+            justify-content: start;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+
+        .justify-content-end {
+            justify-content: end;
+        }
+
+        .justify-content-stretch {
+            justify-content: stretch;
+        }
+
+        .justify-content-space-around {
+            justify-content: space-around;
+        }
+
+        .justify-content-space-between {
+            justify-content: space-between;
+        }
+
+        .justify-content-space-evenly {
+            justify-content: space-evenly;
+        }
+
+        .align-items-start {
+            align-items: flex-start;
+            /* Changed from start to flex-start */
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .align-items-end {
+            align-items: flex-end;
+            /* Changed from end to flex-end */
+        }
+
+        .align-items-stretch {
+            align-items: stretch;
+        }
+
+        .align-content-start {
+            align-content: flex-start;
+            /* Changed from start to flex-start */
+        }
+
+        .align-content-center {
+            align-content: center;
+        }
+
+        .align-content-end {
+            align-content: flex-end;
+            /* Changed from end to flex-end */
+        }
+
+        .align-content-stretch {
+            align-content: stretch;
+        }
+
+        .align-content-space-around {
+            align-content: space-around;
+        }
+
+        .align-content-space-between {
+            align-content: space-between;
+        }
+
+        .align-content-space-evenly {
+            align-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flex System Overview</h1>
+
+    <h2>Justify-Content</h2>
+    <h3>Justification Options</h3>
+    <h4>start</h4>
+    <div class="flex-container justify-content-start">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>center</h4>
+    <div class="flex-container justify-content-center">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>end</h4>
+    <div class="flex-container justify-content-end">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>stretch</h4>
+    <div class="flex-container justify-content-stretch">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>space-around</h4>
+    <div class="flex-container justify-content-space-around">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>space-between</h4>
+    <div class="flex-container justify-content-space-between">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>space-evenly</h4>
+    <div class="flex-container justify-content-space-evenly">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+
+    <h2>Align-Items</h2>
+    <h3>Alignment Options</h3>
+    <h4>start</h4>
+    <div class="flex-container align-items-start">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>center</h4>
+    <div class="flex-container align-items-center">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>end</h4>
+    <div class="flex-container align-items-end">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>stretch</h4>
+    <div class="flex-container align-items-stretch">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+
+    <h2>Align-Content</h2>
+    <h3>Alignment Options</h3>
+    <h4>start</h4>
+    <div class="flex-container align-content-start">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>center</h4>
+    <div class="flex-container align-content-center">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>end</h4>
+    <div class="flex-container align-content-end">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>stretch</h4>
+    <div class="flex-container align-content-stretch">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>space-around</h4>
+    <div class="flex-container align-content-space-around">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>space-between</h4>
+    <div class="flex-container align-content-space-between">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+    <h4>space-evenly</h4>
+    <div class="flex-container align-content-space-evenly">
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+            <div class="flex-item">
+                <img src="flex_system_with_grid.jpg" alt="Flex Image" width="100" height="100" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
