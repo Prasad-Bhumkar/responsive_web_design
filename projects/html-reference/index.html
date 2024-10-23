@@ -1,152 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Comprehensive HTML Reference - Learn HTML tags, attributes, and best practices">
     <meta name="keywords" content="HTML, HTML5, web development, coding, reference, tutorials">
     <meta name="author" content="HTML Reference">
-
     <title>HTML Reference - Complete Guide to HTML</title>
-
     <!-- Open Graph tags for social sharing -->
     <meta property="og:title" content="HTML Reference - Complete Guide to HTML">
-    <meta property="og:description"
-        content="Comprehensive HTML Reference - Learn HTML tags, attributes, and best practices">
+    <meta property="og:description" content="Comprehensive HTML Reference - Learn HTML tags, attributes, and best practices">
     <meta property="og:url" content="https://yoursite.com">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://yoursite.com/images/og-image.jpg">
-
     <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
+    <link rel="stylesheet" href="/styles/prism.css">
+    <link rel="stylesheet" href="/styles/animated-navbar.css"> <!-- Link to the new CSS -->
 </head>
-
 <body>
     <!-- Skip Link for Accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
-
     <!-- Header Section -->
-    <header class="main-header">
-        <div class="header-content">
-            <div class="logo">
-                <h1><i class="fas fa-code" aria-hidden="true"></i> HTML Reference</h1>
-            </div>
-            <nav class="main-nav" aria-label="Main navigation">
+    <header class="main-header" role="banner">
+        <div class="navbar-container container">
+            <nav>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#" aria-haspopup="true">References</a>
-                        <ul class="dropdown-content" aria-label="submenu">
-                            <li><a href="tag-reference/structural-tags.html">HTML Tags</a></li>
-                            <li><a href="attribute-reference/structural-attributes.html">Attributes</a></li>
-                            <li><a href="html5-features/new-features.html">HTML5 Features</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="tag-reference/structural-tags.html">HTML Tags</a></li>
+                    <li><a href="attribute-reference/structural-attributes.html">Attributes</a></li>
+                    <li><a href="html5-features/new-features.html">HTML5 Features</a></li>
                     <li><a href="tutorials/html-basics.html">Tutorials</a></li>
                     <li><a href="code-examples/index.html">Examples</a></li>
                     <li><a href="community-forum/index.html">Community</a></li>
                 </ul>
             </nav>
-            <div class="search-container">
-                <label for="search-input" class="visually-hidden">Search HTML reference</label>
-                <input type="text" id="search-input" placeholder="Search HTML reference..." aria-label="Search">
-                <button type="button" aria-label="Submit search">
-                    <i class="fas fa-search" aria-hidden="true"></i>
-                </button>
-            </div>
         </div>
     </header>
-
     <!-- Mobile Navigation Toggle -->
-    <button class="mobile-menu-button" aria-label="Toggle navigation menu">
+    <button class="mobile-menu-button" aria-label="Toggle navigation menu" aria-expanded="false">
         <i class="fas fa-bars" aria-hidden="true"></i>
     </button>
-
     <!-- Hero Section -->
-    <section class="hero" aria-label="Introduction">
+    <section class="hero" role="region" aria-label="Introduction">
         <div class="hero-content">
-            <h2>Learn HTML</h2>
-            <p>Your complete guide to HTML elements, attributes, and modern web development</p>
-            <div class="hero-buttons">
-                <a href="tutorials/html-basics.html" class="btn primary">Get Started</a>
-                <a href="tag-reference/structural-tags.html" class="btn secondary">Browse Reference</a>
-            </div>
+            <h1>HTML Reference - Complete Guide to HTML</h1>
+            <p>Learn HTML tags, attributes, and best practices with our comprehensive HTML reference guide.</p>
+            <button type="button" aria-label="Get started with HTML">Get Started</button>
         </div>
     </section>
-
-    <!-- Main Content -->
-    <main id="main-content">
-        <!-- Quick Reference Section -->
-        <section class="quick-reference">
-            <h2>Quick Reference</h2>
-            <div class="reference-grid">
-                <div class="reference-card">
-                    <i class="fas fa-tags" aria-hidden="true"></i>
-                    <h3>HTML Tags</h3>
-                    <p>Complete list of HTML tags with examples</p>
-                    <a href="tag-refrence/structural-tags.html">Learn More →</a>
-                </div>
-                <div class="reference-card">
-                    <i class="fas fa-sliders-h" aria-hidden="true"></i>
-                    <h3>Attributes</h3>
-                    <p>HTML attribute reference with usage examples</p>
-                    <a href="attribute-reference/structural-attributes.html">Learn More →</a>
-                </div>
-                <div class="reference-card">
-                    <i class="fas fa-universal-access" aria-hidden="true"></i>
-                    <h3>Accessibility</h3>
-                    <p>Best practices for accessible web development</p>
-                    <a href="accessibility/importance.html">Learn More →</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Featured Section -->
-        <section class="featured">
-            <h2>Featured Content</h2>
-            <div class="featured-grid">
-                <div class="featured-card">
-                    <i class="fas fa-code" aria-hidden="true"></i>
-                    <h3>HTML5 Features</h3>
-                    <p>New features and improvements in HTML5</p>
-                    <a href="html5-features/new-features.html">Learn More →</a>
-                </div>
-                <div class="featured-card">
-                    <i class="fas fa-book" aria-hidden="true"></i>
-                    <h3>Tutorials</h3>
-                    <p>Step-by-step guides for learning HTML</p>
-                    <a href="tutorials/html-basics.html">Learn More →</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
+    <!-- Quick Reference Section -->
+    <section class="quick-reference" role="region" aria-label="Quick Reference">
+        <h2>Quick Reference</h2>
+        <ul>
+            <li><a href="tag-reference/structural-tags.html">HTML Tags</a></li>
+            <li><a href="attribute-reference/structural-attributes.html">Attributes</a></li>
+            <li><a href="html5-features/new-features.html">HTML5 Features</a></li>
+        </ul>
+    </section>
+    <!-- Featured Section -->
+    <section class="featured" role="region" aria-label="Featured Content">
+        <h2>Featured Content</h2>
+        <ul>
+            <li><a href="tutorials/html-basics.html">HTML Basics Tutorial</a></li>
+            <li><a href="code-examples/index.html">HTML Code Examples</a></li>
+            <li><a href="community-forum/index.html">HTML Community Forum</a></li>
+        </ul>
+    </section>
     <!-- Footer Section -->
-    <footer class="main-footer">
-        <div class="footer-content">
-            <p>&copy; 2023 HTML Reference</p>
-            <ul>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
+    < footer class="main-footer" role="contentinfo">
+        <p>&copy; 2023 HTML Reference. All rights reserved.</p>
+        <ul>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
     </footer>
-
-    <!-- Prism.js for code highlighting -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+    <script src="/scripts/main.js"></script>
 </body>
-
 </html>

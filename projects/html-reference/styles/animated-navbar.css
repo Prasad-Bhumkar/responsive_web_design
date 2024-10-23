@@ -1,0 +1,76 @@
+/* Container for the Navbar */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Add padding to the container */
+}
+
+/* Navbar Styles */
+nav {
+    background: #ffffff; /* White background for the nav */
+    border-radius: 50px;
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Navbar List */
+nav ul {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+/* Navbar List Items */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px; /* Adjust padding for better spacing */
+    margin: 0 10px; /* Adjust margin for better spacing */
+    font-size: 18px;
+    font-weight: 600; /* Slightly bolder font */
+    color: #333333; /* Dark grey text color */
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease; /* Smoother transition */
+}
+
+/* Hover Effect for List Items */
+nav ul li:after {
+    content: '';
+    background-color: #ffcc00; /* Gold color for the hover effect */
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.3s ease, opacity 0.3s ease; /* Smoother transition */
+}
+
+/* Hover State for List Items */
+nav ul li:hover {
+    color: #ff6600; /* Bright orange for hover effect */
+}
+
+/* Show Hover Effect */
+nav ul li:hover::after {
+    top: 50%;
+    opacity: 1;
+}
+
+/* Link Styles */
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from li */
+}
+
+/* Active Link Styles */
+nav ul li a.active {
+    color: #ff6600; /* Bright orange for active link */
+    font-weight: bold; /* Bold font for active link */
+}
